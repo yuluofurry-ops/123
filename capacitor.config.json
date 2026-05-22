@@ -1,0 +1,18 @@
+{
+  "appId": "online.furrychat.app",
+  "appName": "FurryChat",
+  "webDir": "www",
+  "server": {
+    "url": "https://ai.furrychat.online",
+    "cleartext": false,
+    "androidScheme": "https",
+    "iosScheme": "https",
+    "hostname": "ai.furrychat.online"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#1a1a2e"
+    }
+  }
+}
