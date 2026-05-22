@@ -21,25 +21,15 @@ jobs:
 
       - name: 添加 iOS 平台
         run: npx cap add ios
-        # 这会生成 ios/ 目录
 
       - name: 同步配置
         run: npx cap sync ios
 
-      - name: 调试 - 查看生成的文件结构
-        run: ls -la ios/App/
-
-      - name: 安装 CocoaPods
-        run: |
-          cd ios/App
-          pod install
-        shell: bash
-
-      - name: 构建 IPA（无签名，用于侧载）
+      - name: 构建 IPA（无签名）
         run: |
           cd ios/App
           xcodebuild \
-            -workspace App.xcworkspace \
+            -project App.xcodeproj \
             -scheme App \
             -configuration Release \
             -sdk iphoneos \
