@@ -1,0 +1,74 @@
+[
+  {
+    "path": ".gitignore",
+    "size": 61
+  },
+  {
+    "path": "capacitor.config.json",
+    "size": 379
+  },
+  {
+    "path": "check_jdk.py",
+    "size": 1661
+  },
+  {
+    "path": "download_apk.py",
+    "size": 762
+  },
+  {
+    "path": "generate_icons.py",
+    "size": 1703
+  },
+  {
+    "path": "package-lock.json",
+    "size": 38902
+  },
+  {
+    "path": "package.json",
+    "size": 421
+  },
+  {
+    "path": "push_to_github.py",
+    "size": 4368
+  },
+  {
+    "path": "rebuild.py",
+    "size": 1233
+  },
+  {
+    "path": "rename_website.py",
+    "size": 2688
+  },
+  {
+    "path": "server_build.sh",
+    "size": 3224
+  },
+  {
+    "path": "server_build_final.py",
+    "size": 1079
+  },
+  {
+    "path": "server_build_jdk21.py",
+    "size": 3123
+  },
+  {
+    "path": "update_config.py",
+    "size": 4315
+  },
+  {
+    "path": "upload_and_build.py",
+    "size": 2717
+  },
+  {
+    "path": "upload_icon_and_prepare.py",
+    "size": 2926
+  },
+  {
+    "path": ".github/workflows/build-ios.yml",
+    "size": 1374
+  },
+  {
+    "path": "www/index.html",
+    "size": 319
+  }
+]
